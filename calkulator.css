@@ -1,0 +1,70 @@
+body {
+    background-color: yellow;
+    /*display: blok;*/
+    text-align: center;
+}
+
+#calkulator {
+    border: 4px solid #400022;
+    border-radius: 6px;
+    display: inline-block;
+    background-color: #f0efee;
+    box-shadow: 5px -5px 8px  grey;
+}
+
+.display {
+    border: 6px solid #949290;
+    height: 50px;
+    display: block;
+    margin: 15px;
+    border-radius: 5px;
+    background-color:#dcdbd9;
+    padding-right: 5px;
+}
+.max{
+    text-align: right;
+    margin-top: 40px;
+    font-size: 10px;
+}
+
+.buttons {
+    display: inline-block;
+}
+
+.button {
+    width: 27px;
+    height: 27px;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+    /*display: blok;*/
+    float: left;
+    margin: 10px;
+    padding-top: 7px;
+}
+
+.buttonLine1, .buttonLine2, .buttonLine3, .buttonLine4, .buttonLine5 {
+    clear: both;
+}
+
+.wynik {
+    width: 125px;
+    height: 27px;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+    float: left;
+    margin: 10px;
+    padding-top: 7px;
+    background-color: orange;
+}
+#on, #off{
+    background-color: #e59ddd;
+}
+#number{
+    background-color:#dfdbdf;
+
+}
+#actions{
+    background-color:#a6a6a6;
+}
